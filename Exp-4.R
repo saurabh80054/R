@@ -1,0 +1,11 @@
+#EXPERIMENT-4
+setwd("D:/Coding/R")
+getwd()
+library("arules")
+data("Adult")
+fprules<-fim4r(Adult,method="fpgrowth",target="rules",supp=70,rules=60)
+fprules
+inspect(fprules[1:5])
+x<-as(fprules,"data.frame")
+write.csv(x,file="mushroomrules.csv")
+data(package="arules")

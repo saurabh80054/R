@@ -1,0 +1,35 @@
+@relation R_data_frame
+
+@attribute S.No numeric
+@attribute UID string
+@attribute Name string
+@attribute Age string
+@attribute Gender string
+@attribute Section string
+@attribute Course string
+@attribute Maths numeric
+@attribute English numeric
+@attribute Physics numeric
+@attribute TOC numeric
+
+@data
+1,20BCS5799,Saurabh,21,M,A,CSE,89,95,92,100
+2,20BCS5831,Anushka,20,F,B,CSE,90,45,68.21,69.09
+3,20BCS5832,Mahi,22,F,C,BBA,100,70,87.02,91
+4,20BCS5833,Prerna,23,F,D,ECE,91,90,90.43,91.2
+5,20BCS5834,Yogesh,24,M,A,CSE,92,95,99.21,90
+6,20BCS5835,Deepak,20,M,B,BBA,67,98,92,100
+7,20BCS5836,Abhishek,21,M,C,ECE,78,90,68.21,69.09
+8,20BCS5837,Atul,22,M,D,CSE,75,71,87.02,91
+9,20BCS5838,Anand,23,M,A,BBA,80,78,90.43,91.2
+10,20BCS5839,Kartik,21,M,B,ECE,90,93,99.21,90
+11,20BCS5841,Aadarsh,20,M,C,CSE,55,95,92,100
+12,20BCS5842,Harshit,23,M,D,BBA,81,45,68.21,69.09
+13,20BCS5843,Rajeev,21,M,A,ECE,87,70,87.02,91
+14,20BCS5844,Ankit,20,M,B,CSE,66,90,90.43,91.2
+15,20BCS5845,Mayank,22,M,C,BBA,60,95,99.21,90
+16,20BCS5846,Lokendra,21,M,D,ECE,99,98,92,100
+17,20BCS5847,Saksham,20,M,A,CSE,100,90,68.21,69.09
+18,20BCS5848,Maulik,23,M,B,BBA,45,71,87.02,91
+19,20BCS5849,Saif,21,M,C,ECE,39,78,90.43,91.2
+20,20BCS5851,Ayush,22,M,D,CSE,21,93,99.21,90

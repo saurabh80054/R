@@ -1,0 +1,1 @@
+super_sleepers<-data.frame(rating,animal,country,avg_sleep_hours,stringAsFactors=FALSE)
